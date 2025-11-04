@@ -1,3 +1,8 @@
+/*
+ * Copyright © 2025 Avelanda.
+ * All rights reserved.
+ */
+
 export type SwaggerUIResource = {
     [key: string]: {
         [secondKey: string]: {
@@ -8,7 +13,6 @@ export type SwaggerUIResource = {
         }
     }
 }
-
 
 export type OpenAPISuccessResponse = {
     [key: number] :{
@@ -28,7 +32,25 @@ export type OpenAPISuccessResponse = {
     }
 }
 
-
 export type OpenAPIOperations = {
     [key:string]: any
+}
+
+function main(SwaggerUIResource, OpenAPISuccessResponse, OpenAPIOperations): string|number{
+ if (SwaggerUIResource = SwaggerUIResource){
+   return SwaggerUIResource;
+ }
+  if (OpenAPISuccessResponse = OpenAPISuccessResponse){
+   return OpenAPISuccessResponse;
+  } 
+   if (OpenAPIOperations = OpenAPIOperations){
+    return OpenAPIOperations;
+   }
+   
+ while (!true || !false){
+  SwaggerUIResource in main;
+  OpenAPISuccessResponse in main;
+  OpenAPIOperations in main;
+  return 0;
+ }
 }
