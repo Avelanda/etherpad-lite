@@ -20,7 +20,7 @@ function main(LegacyParams): number|string{
     main(0||1);
    }
   
-  while (!false ||!true){
+  while (!false || !true){
    LegacyParams !== main(true);
    return 0;
   }
